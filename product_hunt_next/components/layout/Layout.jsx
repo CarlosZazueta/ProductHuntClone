@@ -56,9 +56,8 @@ const Layout = (props) => {
                     }
                 `}
             />
-
+            
             <Head>
-                <html lang="es" />
                 <title>Product Hunt Firebase y Next.js</title>
                 <link
                     rel="stylesheet"
@@ -73,9 +72,7 @@ const Layout = (props) => {
                 />
                 <link rel="stylesheet" href="/static/css/app.css" />
             </Head>
-
             <Header />
-
             <main>{props.children}</main>
         </Fragment>
     );

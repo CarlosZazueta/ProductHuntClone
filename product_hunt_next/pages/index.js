@@ -1,12 +1,13 @@
-import React from "react";
-import Layout from "../components/layout/Layout";
+import React, { Fragment } from "react";
 
 export default function Home() {
-  return (
-    <div>
-      <Layout>
-        <h1>Inicio</h1>
-      </Layout>
-    </div>
-  );
+    return (
+        <Fragment>
+            <div>
+                <Layout>
+                    <h1>Inicio</h1>
+                </Layout>
+            </div>
+        </Fragment>
+    );
 }
